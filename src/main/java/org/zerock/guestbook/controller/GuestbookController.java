@@ -50,6 +50,6 @@ public class GuestbookController {
 
         redirectAttributes.addFlashAttribute("msg",gno);
 
-        return "redirect:/guestbook/llist";
+        return "redirect:/guestbook/list";
     }
 }
